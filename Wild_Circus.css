@@ -1,0 +1,236 @@
+@font-face
+{
+	font-family: 'Learning-Curve-Pro';
+	src: url('Learning-Curve-Pro-fontfacekit/LearningCurve_OT-webfont.eot');
+	src: url('Learning-Curve-Pro-fontfacekit/LearningCurve_OT-webfont.eot') format('embedded-opentype'),
+		 url('Learning-Curve-Pro-fontfacekit/LearningCurve_OT-webfont.woff') format('woff'),
+		 url('FLearning-Curve-Pro-fontfacekit/LearningCurve_OT-webfont.ttf') format('truetype'),
+		 url('Learning-Curve-Pro-fontfacekit/LearningCurve_OT-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;	 
+}
+
+@font-face
+{
+	font-family: 'Windsong';
+	src:url('Windsong-fontfacekit/Windsong-webfont.eot');
+	src:url('Windsong-fontfacekit/Windsong-webfont.eot') format('embedded-opentype'),
+		url(Windsong-fontfacekit/Windsong-webfont.woff) format('woff'),
+		url('Windsong-fontfacekit/Windsong-webfont.ttf') format('truetype'),
+		url('Windsong-fontfacekit/Windsong-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;	
+}
+
+@font-face
+{
+	font-family: 'FontleroyBrown';
+	src:url('FontleroyBrown-fontfacekit/FontleroyBrown-webfont.eot');
+	src:url('FontleroyBrown-fontfacekit/FontleroyBrown-webfont.eot') format('embedded-opentype'),
+		url('FontleroyBrown-fontfacekit/FontleroyBrown-webfont.woff') format('woff'),
+		url('FontleroyBrown-fontfacekit/FontleroyBrown-webfont.ttf') format('truetype'),
+		url('FontleroyBrown-fontfacekit/FontleroyBrown-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	background: url('images/paillettes.jpg');
+	font-family: 'Learning-Curve-Pro', 'FontleroyBrown', 'FontleroyBrown', Arial, Serif;
+	color: #FFF4CF;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#ornement_1, #ornement_2
+{
+	width: 150px;
+	height: 150px;
+}
+ 
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+ 
+.rotating {
+    -webkit-animation: rotating 5s linear infinite;
+}
+
+#bloc_page
+{
+	width: 90%;
+	margin: auto;
+}
+
+#gros_titre
+{
+	font-family: 'Windsong', 'Learning-Curve-Pro','FontleroyBrown', Arial, Serif;
+	font-size: 95px;
+	font-weight: bold;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+#chargement
+{
+	width: 100%;
+	height: 100%
+	background-color: rgba(0, 0, 0, 0.879)
+
+
+}
+
+#titre_principal
+{
+	margin-top: -35px;
+}
+
+#intro_1
+{
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 15px;
+}
+
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top:-50px;	
+
+}
+
+.contact_1_1, .tarifs_1_1, .horaires_1_1:hover
+
+{
+	text-decoration: underline;
+	color: white;
+}
+.contact_1_1, .tarifs_1_1, .horaires_1_1:visited
+{
+	color:white;
+}
+
+
+#intro
+{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;
+}
+
+#premier_paragraphe, #deuxieme_paragraphe, #troisième_paragraphe
+{
+	width: 300px;
+	height: 300px;
+	overflow: scroll;
+}
+
+.lignes_main, .serpent, .corps
+{
+	float: left;
+	border: 5px black dotted;
+	border-radius: 10px;
+}
+
+#bonne_aventure, #dresseur_de_serpent, #contorsionist
+{
+	width: 300px;
+	height: 500px;
+	margin-bottom: -100px;
+	padding-bottom: 15px;
+}
+
+#titre_bonne_aventure, #titre_dresseur_de_serpent, #titre_contorsionist, #aside_1, #aside_2, #aside_3
+{
+	text-align: center;
+	font-family: 'FontleroyBrown';
+}
+
+#alignement
+{
+	display: flex;
+	justify-content: space-around;	
+	align-items: center;
+}
+
+#id_1, #id_2, #id_3
+{
+	border: 5px black double; 
+}
+
+#aside1, #aside2, #aside3
+{
+	width: 300px;
+	height: 150px;
+	margin-top: 20px;
+	overflow: scroll;
+	border-top: 2px black dotted;
+}
+
+#aside_p_1, #aside_p_2, #aside_p_3
+{
+	display: flex;
+	padding-bottom: 10px;
+}
+
+#aside_1, #aside_2, #aside_3
+{
+	margin-bottom: -20px;
+	text-decoration: blink;
+}
+
+footer
+{
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;
+	margin-top: 100px;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 25px;
+}
+ #reseaux
+ {
+ 	border-right: 5px black double;
+ 	padding-right: 10px;
+ }
+
+
+#nav
+{
+ 	border-right: 5px black double;
+ 	padding-right: 10px;
+
+ }
+
+#mentions
+{
+	margin-left: 80px;
+	margin-right: 50px;
+}
+
+#Camille
+{
+	margin-left: 200px;
+}
+
+
+
+
+
+
+
